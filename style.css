@@ -2,7 +2,7 @@
 body {
     background-color: #f8f8f8;
     color: #333;
-    font-family: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
   }
   .header {
     width: 500px;
@@ -30,11 +30,11 @@ body {
     margin: 0 auto 0;
   }
   .todo__item,
-  new__item {
+  .new__item {
     display: flex;
   }
   .todo__item--task,
-  new__item__task {
+  .new__item__task {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
@@ -65,7 +65,7 @@ body {
   }
   /* Heading */
   .todo__header,
-  add__item--title {
+  .add__item--title {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -74,7 +74,7 @@ body {
     margin: 0;
     text-transform: uppercase;
   }
-  new__item__task {
+  .new__item__task {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -83,24 +83,24 @@ body {
     border: 1px solid #ddd;
     background: #fff;
     border-radius: 6px;
-    font-family: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
     color: #888;
   }
   .todo__edit--mode .todo__item--task {
-    font-family: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
     color: #888;
   }
   .todo__item--task:focus,
-  new__item__task:focus {
+  .new__item__task:focus {
     color: #333;
   }
   
   /* New Task */
-  add__item--title {
+  .add__item--title {
     display: block;
     margin: 0 0 20px;
   }
-  new__item__task {
+  .new__item__task {
     width: 318px;
   }
   .add__button:hover {
