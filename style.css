@@ -27,19 +27,26 @@ body {
     width: 500px;
     margin: 0 auto 0;
 }
-.task {
+
+.add__new--item,
+.todo__item {
+    display: flex;
+}
+
+.todo__item--task,
+.new__item--task {
     width: 56%;
     display: inline-block;
     flex-grow: 1
 }
-.task-row-wrapper {
-    display: flex;
-}
+
 ul {
     margin:0;
     padding: 0px;
 }
-li, h3 {
+
+li,
+h3 {
     list-style:none;
 }
 input,button{
