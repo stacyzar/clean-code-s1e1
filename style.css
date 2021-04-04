@@ -86,7 +86,6 @@ body {
     border-radius: 6px;
     font-family: 'Lato', sans-serif;
     color: #888;
-    flex-grow: 1;
   }
   .todo__edit--mode .todo__item--task {
     font-family: 'Lato', sans-serif;
