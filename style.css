@@ -73,7 +73,7 @@ body {
     margin: 0;
     text-transform: uppercase;
   }
-  .new__item__task {
+  .new__item--task {
     display: inline-block;
     width: 318px;
     margin: 0;
@@ -92,7 +92,7 @@ body {
     color: #888;
   }
   .todo__item--task:focus,
-  .new__item__task:focus {
+  .new__item--task:focus {
     color: #333;
   }
   
@@ -101,7 +101,7 @@ body {
     display: block;
     margin: 0 0 20px;
   }
-  .new__item__task {
+  .new__item--task {
     width: 318px;
   }
   .add__button:hover {
